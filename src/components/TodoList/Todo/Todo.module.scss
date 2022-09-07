@@ -1,0 +1,38 @@
+.wrap {
+    width: 100%;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.todo_left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.checkbox {
+    user-select: none;
+    cursor: pointer;
+
+    input {
+        margin-right: 6px;
+    }
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 3px 8px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+
+    span {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,27 @@
+.title {
+    font-weight: bold;
+}
+
+.wrap {
+    display: flex;
+    margin-top: 4px;
+
+    .item {
+        display: flex;
+        align-items: center;
+        margin-right: 16px;
+
+        label {
+            margin-left: 6px;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.85);
+            user-select: none;
+        }
+    }
+}
+
+input[type="checkbox"] {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Chrome, Safari, Opera */
+    transform: scale(1.2);
+}
